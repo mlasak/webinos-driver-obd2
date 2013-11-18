@@ -18,7 +18,8 @@
 , "main": "./lib/driverHandle.js"
 , "dependencies":
   {
-   "now": "0.8.1"
+  "serialport": "git://github.com/mlasak/node-serialport"
+  ,"now": "0.8.1"
   ,"bluetooth-obd": ">=0.1.x"
   ,"serial-obd": ">=0.1.x"
   }
@@ -29,8 +30,7 @@
     "jasmine-node": "x.x.x"
   }
 , "bundleDependencies":
-  [ "serialport"
-  ],
+  [  ],
  "scripts":{
   "travis-api-test": "./test/tools/travis-test.sh"
 }
