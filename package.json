@@ -29,11 +29,7 @@
     "jasmine-node": "x.x.x"
   }
 , "bundleDependencies":
-  [ "events"
-  , "fs"
-  , "https"
-  , "path"
-  , "url"
+  [ "serialport"
   ],
  "scripts":{
   "travis-api-test": "./test/tools/travis-test.sh"
